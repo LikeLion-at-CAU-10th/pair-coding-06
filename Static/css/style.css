@@ -16,6 +16,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .top-box p{
     display:flex;
     justify-content: center;
@@ -25,5 +26,63 @@ body{
 .top-box img{
     width:20px;
     height:20px;
-    
+}
+.wrapper{
+    margin: 0 20px;
+}
+.middle-title{
+    display: flex;
+
+}
+.middle-checkbox{
+    display: flex;
+    display: flex;
+    align-items: center;
+}
+.middle-checkbox img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.middle-loginbox a{
+    text-decoration: none;
+    color: grey;
+    margin: 0 10px;
+}
+.middle-loginbox p{
+    color: grey;
+}
+.middle-loginbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+.bottom-box{
+    max-width: 90%
+}
+#login{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    height: 60px;
+    font-size: 20px;    
+}
+.division-line hr{
+    width: 40%;
+}
+.division-line{
+    display: flex;
+}
+.loginbox{
+    display: flex;
+}
+.loginbox img{
+    width: 30px;
+    height: 30px;
 }
