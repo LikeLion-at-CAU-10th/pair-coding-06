@@ -36,7 +36,6 @@ body{
 }
 .middle-checkbox{
     display: flex;
-    display: flex;
     align-items: center;
 }
 .middle-checkbox img{
@@ -73,16 +72,58 @@ body{
     height: 60px;
     font-size: 20px;    
 }
+.division-line{
+    font-size:12px;
+    color: grey;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
 .division-line hr{
-    width: 40%;
+    width: 46%;
+    height:0.1px;
+    border-style: none;
+    background-color: grey;
 }
 .division-line{
     display: flex;
 }
+.bottom-box{
+    display:flex;
+    flex-direction: column;
+    /* : center; */
+}
 .loginbox{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    padding:7px;
+    border-radius: 5px;
+    height:30px;
+    color: grey;
+    border-style:solid;
+    margin: 10px 0;
+}
+.google{
+    border-color: lightgrey;
+}
+.facebook{
+    border-color:lightblue;
+}
+
+.naver{
+    border-color: lightgreen;
+}
+.kakao{
+    border-color: rgb(255, 225, 0);
 }
 .loginbox img{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height:20px;
+    margin-right: auto;
+}
+.loginbox p{
+    display:flex;
+    justify-content: center;
 }
