@@ -8,7 +8,8 @@
 
 
 ## 상품 페이지!
-[Uploading 당근.jpg…]()
+![당근](https://user-images.githubusercontent.com/100203726/168730025-68076a94-a23c-43ee-ba29-d2ef936e488b.jpg)
+
 
 
 우아 잘만들었다!
